@@ -1,0 +1,47 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2b2b2b;
+  &__title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  &__id {
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+  }
+  &__confirmed {
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(81, 255, 81);
+  }
+  &__no_confirmed {
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(214, 55, 55);
+  }
+  &__logout {
+    margin-bottom: 30px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    color: #2b2b2b;
+    cursor: pointer;
+  }
+}

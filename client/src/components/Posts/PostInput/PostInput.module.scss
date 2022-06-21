@@ -1,0 +1,49 @@
+.postInput {
+  padding-bottom: 40px;
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  &__title {
+    color: #2b2b2b;
+  }
+  &__input {
+    margin-bottom: 20px;
+    width: 500px;
+    height: 30px;
+    &:focus {
+      border-color: #2b2b2b;
+      outline: none;
+    }
+    &_error {
+      border-color: rgb(255, 0, 0);
+    }
+  }
+  &__btn {
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    background-color: #2b2b2b;
+    border: none;
+    cursor: pointer;
+  }
+  &__errors {
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: rgb(255, 0, 0);
+  }
+}
+
+#content {
+  height: 70px;
+}

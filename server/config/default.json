@@ -1,0 +1,12 @@
+{
+  "port": 5000,
+  "dbUri": "mongodb+srv://f1le47:wHs5Ev2j5Pd01GqL@cluster0.qsptn.mongodb.net/loginSystem?retryWrites=true&w=majority",
+  "jwtAccessSecret": "random string for access token :)",
+  "jwtRefreshSecret": "random string for refresh token :)",
+  "smtpHost": "smtp.gmail.com",
+  "smtpPort": 587,
+  "smtpUser": "f1leconfirmmail@gmail.com",
+  "smtpPassword": "ShotOne008009",
+  "apiUrl": "http://localhost:5000",
+  "clientUrl": "http://localhost:3000"
+}
